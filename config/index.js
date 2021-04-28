@@ -1,3 +1,3 @@
 export default {
-    appName: "Starter Kit"
+    appName: "TODO APP"
 }

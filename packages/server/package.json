@@ -7,8 +7,13 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@starterkit/config": "0.1.0",
+    "@quicksrc/config": "0.1.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
     "express": "^4.17.1",
-    "nodemon": "^2.0.6"
+    "nodemon": "^2.0.6",
+    "passport": "^0.4.1",
+    "passport-linkedin": "^1.0.0",
+    "passport-linkedin-oauth2": "^2.0.0"
   }
 }
