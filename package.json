@@ -1,0 +1,17 @@
+{
+  "name": "starter-kit",
+  "private": true,
+  "scripts": {
+    "start": "lerna run start --stream"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "workspaces": [
+    "config",
+    "packages/client",
+    "packages/server",
+    "modules/**/client",
+    "modules/**/server"
+  ]
+}
